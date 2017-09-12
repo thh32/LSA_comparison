@@ -1,0 +1,3 @@
+swipe -d Blast_database_sprot -i split-contigs.fa-1.fa -p 2 -m 9 -o Swipe.output_blast6out
+
+blastx -db Blast_database -outfmt 6  -evalue 0.01 -query split-contigs.fa-1.fa -out Blastout.out
