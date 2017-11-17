@@ -3,4 +3,4 @@ Files and scripts required to re-run the analysis described in the paper 'The BL
 
 
 
-The representative code for the creation of databases and running of LSAs can be found in the Time comparison folder.
+The representative code for the creation of databases and running of LSAs can be found in the time test folder.
