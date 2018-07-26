@@ -13,3 +13,12 @@ diamond blastx -q [INPUT] -d [DATABASE] --max-target-seqs 10000 -a [OUTPUT]
 diamond view -a [INPUT] -o [OUTPUT]
 
 rapsearch -q [INPUT] -d [DATABASE] -o [OUTPUT]
+
+
+
+Sotware versions;
+diamond v0.7.0.49
+blast-2.2.28
+usearch v8.0.1517_i86linux32
+SWIPE 2.0.5
+RAPSearch/2.22
