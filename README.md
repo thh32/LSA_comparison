@@ -9,8 +9,7 @@ blastx -db [DATABASE] -query [QUERY] -num_alignments 10000 -outfmt 6 -out [OUTPU
 
 usearch -ublast [INPUT] -db [DATABASE]  -fulldp -evalue 1 -blast6out [OUTPUT]
 
-diamond blastx -q [INPUT] -d [DATABASE] --max-target-seqs 10000 -a [OUTPUT]
-diamond view -a [INPUT] -o [OUTPUT]
+diamond blastx -q [INPUT] -d [DATABASE] --max-target-seqs 10000 -o [OUTPUT]
 
 rapsearch -q [INPUT] -d [DATABASE] -o [OUTPUT]
 
